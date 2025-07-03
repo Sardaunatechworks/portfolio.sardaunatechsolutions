@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhammad Abubakar | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+       <div class="logo-container">
+      <img src="logo.png" alt="Logo" class="logo" />
+      <h1>
+        Muhammad Auwal Abubakar<br>
+        <sub>Sardauna Tech Solutions</sub>
+      </h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Hello, I'm Muhammad Abubakar</h2>
+    <p>A passionate IT Specialist & Developer</p>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>I’m an enthusiastic tech enthusiast and IT specialist from Nigeria, currently running Sardauna Tech Solutions. I build web apps, automate support systems, and empower students with free learning resources.</p>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>SmartSupport.tech</h3>
+        <p>AI-powered omnichannel support platform.<br>
+        <sub>(Under Development)</sub></p>
+      </div>
+      <div class="project-card">
+        <h3>Sardauna Tech Hub</h3>
+        <p>Free tech resources for students in Africa.</p>
+        <a href="https://sardaunatechworks.github.io/Sardaunatechub.web/" target="_blank">Visit Site</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+<form id="contact-form">
+  <input type="text" name="user_name" placeholder="Your Name" required />
+  <input type="email" name="user_email" placeholder="Your Email" required />
+  <textarea name="message" placeholder="Your Message" required></textarea>
+  <button type="submit">Send Message</button>
+  <p id="form-status"></p>
+</form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Muhammad Abubakar | All rights reserved</p>
+  </footer>
+
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
